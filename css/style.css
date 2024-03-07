@@ -1,0 +1,155 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body a{
+	text-decoration:none;
+}
+
+li{
+	list-style-type:none;
+}
+
+body ul{
+	padding:0px;
+}
+
+.nav-bar .home-bar{
+	position:relative;
+	transform:scale(1.1);
+}	
+
+.nav-bar .home-bar-1{
+	position:absolute;
+	padding:15px;
+	width:180px;
+	visibility:hidden;
+	border-bottom:2px solid blue;
+	line-height:30px;
+}
+
+.nav-bar .home-bar:hover .home-bar-1{
+	visibility:visible;
+	transition:all 0.4s ease;
+	z-index:1!important;
+}
+
+.search-icon .head-click:hover,.content a:hover,.offer a:hover,.view-bar a:hover,.letter-bar-1 a:hover{
+	background-color:#343a40 !important;
+}
+
+.content-3 a:hover{
+	background-color:blue !important;
+}
+
+.workshop-bar a:hover{
+	background-color:#ffc107 !important;
+	color:white !important;
+}
+
+.arrow-bar li a:hover{
+	color:blue !important;
+}
+
+.image-bar:hover img{
+	transform:scale(1.1);
+	transition:all 0.2s ease;
+}
+
+.image-bar{
+	overflow:hidden;
+}
+
+.papoular-bar-1:hover img{
+	transform:scale(1.1);
+	transition:all 0.2s ease;		
+}
+
+.papoular-bar{
+	overflow:hidden;
+}
+
+.footer-icon i{
+	background-color:#6F6B80 !important;
+}
+
+.footer-icon i:hover{
+	background-color:blue !important;
+}
+
+#carouselExampleControls .relative-bar{
+	position:relative;
+}
+
+.left{
+    position: absolute;
+    right:8%;
+    bottom:0px; 
+    background-color:#0b64e7f2!important;
+	color:blue!important;
+    border: 0;
+    height:50px;
+	width:50px;	
+}
+
+.right{
+    position: absolute;
+    right:0;
+    bottom:0px; 
+    background-color:#0b64e7f2!important;
+	color:blue!important;
+    border: 0;
+    height:50px;
+	width:50px;	
+}
+
+input:focus{
+	outline:none;
+}
+
+.offer-1{
+	display:flex;
+	flex:0 0 auto;
+	justify-content:center;
+	align-items:center;
+	background-color:#ff000029;
+	height:50px!important;
+	text-align:center;
+	line-height:50px!important;
+	width:50px !important;
+	border-radius:50% !important;
+}
+
+.heart-bar{
+	display:flex;
+	flex:0 0 auto;
+	justify-content:center;
+	align-items:center;
+	background-color:gray;
+	height:35px!important;
+	text-align:center;
+	line-height:35px!important;
+	width:35px !important;
+	font-size:20px;
+	border-radius:50% !important;
+}
+.accordion-button:focus {
+    box-shadow: 0 0 10px white !important;
+}
+.accordion-button:not(.collapsed) {
+    background-color: transparent !important; 
+}
+
+.d-none{
+	display:none;
+}
+
+
+
+	
